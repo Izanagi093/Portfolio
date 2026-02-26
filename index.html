@@ -42,11 +42,13 @@ nav{
     z-index:1000;
 }
 
-.logo{
-    font-size:22px;
-    font-weight:700;
-    color:var(--primary);
-}
+ nav .logo img { 
+    width:65px; 
+    height:65px; 
+    border-radius:50%; 
+    object-fit:cover; 
+    border:3px solid #4f0101; 
+    transition:0.3s; }
 
 nav ul{
     list-style:none;
@@ -107,7 +109,7 @@ nav ul li a:hover{
 
 /* SECTIONS */
 section{
-    padding:100px 80px;
+    padding:200px 80px;
 }
 
 h2{
@@ -254,7 +256,9 @@ footer{
 
 <!-- NAVIGATION -->
 <nav>
-    <div class="logo">RJ.</div>
+    <div class="logo">
+        <img src="profile.png" alt="Rj">
+    </div>
     <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -265,15 +269,15 @@ footer{
 
 <!-- HERO -->
 <div class="hero">
-    <h1>Hello, I'm <span>RJ Ilosorio</span></h1>
-    <p>Aspiring Data Analyst | 3rd Year Student</p>
+    <h1>Hello, I'm <span>Rj Ilosorio</span></h1>
+    <p>Aspiring Data Analyst | 3rd Year BSIT Student</p>
     <a href="#about" class="btn">Explore More</a>
 </div>
 
 <!-- ABOUT -->
 <section id="about">
     <h2>About Me</h2>
-    <p>I aim to become a skilled developer and contribute to innovative digital solutions.</p>
+    <p>Aspiring Data Analyst and 3rd-year BSIT student dedicated to uncovering the stories hidden within data. With a focus on transforming raw datasets into meaningful narratives, I bridge the gap between technical database management and strategic decision-making. I am passionate about leveraging statistical analysis and visualization to solve complex problems and drive efficiency in any data-driven ecosystem.</p>
 </section>
 
 <!-- SKILLS -->
@@ -283,18 +287,28 @@ footer{
     <div class="skills-container">
 
         <div class="skill-box">
+            <i class="fab fa-percentage"></i>
+            <h3>Mathematics</h3>
+        </div>
+        
+        <div class="skill-box">
+            <i class="fab fa-chart-area"></i>
+            <h3>Statistics</h3>
+        </div>
+    
+        <div class="skill-box">
             <i class="fab fa-python"></i>
-            <h3>Python</h3>
+            <h3>Python (in learning process)</h3>
         </div>
 
         <div class="skill-box">
             <i class="fas fa-database"></i>
-            <h3>Database Management</h3>
+            <h3>Database Management (in learning proccess)</h3>
         </div>
 
         <div class="skill-box">
             <i class="fas fa-network-wired"></i>
-            <h3>Networking</h3>
+            <h3>Networking (in learning proccess)</h3>
         </div>
 
     </div>
@@ -307,9 +321,8 @@ footer{
     <div class="projects">
 
         <div class="card">
-            <i class="fas fa-database"></i>
-            <h3>Database System</h3>
-            <p>Created a simple student record management system.</p>
+            
+            <h3>No Active Projects at the Moment</h3>
         </div>
 
     </div>
@@ -323,26 +336,26 @@ footer{
         <div class="contact-card">
             <i class="fas fa-envelope"></i>
             <h3>Email</h3>
-            <p>rj.ilosorio@example.com</p>
+            <p>ilosoriorj09@gmail.com</p>
         </div>
 
         <div class="contact-card">
             <i class="fas fa-phone"></i>
             <h3>Phone</h3>
-            <p>(123) 456-7890</p>
+            <p>+63-967-012-7510</p>
         </div>
 
         <div class="contact-card">
             <i class="fab fa-github"></i>
             <h3>GitHub</h3>
-            <p>github.com/rj-ilosorio</p>
+            <p>github.com/Izanagi093</p>
         </div>
 
     </div>
 </section>
 
 <footer>
-    © 2026 RJ Ilosorio. All Rights Reserved.
+    © 2026 Rj Ilosorio Practice
 </footer>
 
 </body>
